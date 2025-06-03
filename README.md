@@ -6,4 +6,4 @@ Create a NextJS Typescript app with Rust Backend DFX integration by using this t
 
 You can use thie template if you want. sorry for the starter design, i didn't have time for it. 
 
-use `.icprc` for the environment configuration
+read `icprc.sh` for the environment configuration
