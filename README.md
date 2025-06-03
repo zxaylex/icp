@@ -5,3 +5,5 @@ This template is a NextJS TypeScript v15 & Rust template. The configurations are
 Create a NextJS Typescript app with Rust Backend DFX integration by using this template.
 
 You can use thie template if you want. sorry for the starter design, i didn't have time for it. 
+
+use `.icprc` for the environment configuration
