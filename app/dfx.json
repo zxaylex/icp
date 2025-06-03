@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "backend": {
+      "candid": "api/api.did",
+      "package": "api",
+      "type": "rust",
+      "declarations": {
+        "node_compatability": true
+      }
+    },
+    "frontend": {
+      "type": "assets",
+      "dependencies": ["backend"],
+      "source": ["out"],
+      "frontend": {
+        "entrypoint": "out/index.html"
+      }
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
